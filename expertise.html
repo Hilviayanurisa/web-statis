@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="jquery.js"></script>
+	<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+ 	<title>bisacreative</title>
+</head>
+<body>
+	<div class="navigation">
+        <img class="logo" src="logo.png"> 
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="expertise.html">Expertise</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+  </div>
+	<div class="wrapper">
+    <div class="runtext-container">
+      <div class="main-runtext">
+        <marquee direction="" onmouseover="this.stop();" onmouseout="this.start();">
+              <header class="header">We do Amazing Thing with Amazing People.</header><br>
+        </marquee>
+      </div>
+    </div>
+  </div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="ex1.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="ex2.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ex3.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ex4.png" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2 seconds
+}
+</script>
+<div class="box2">
+  <div class="konten2 hidden">
+    <img src="ex.png">
+  </div>
+  <div class="sub-kon2">
+    <h2><strong><span style="color: #000000;">Develop your Business on the Creative Ways</span></strong>
+      <p style="text-align: left;">
+        <span style="color: #000000; font-size: 18px;">
+          We are what you've been looking for to help build solutions for your best business. We find creative ways to create sustainable relationships between your business, products and brands with customers. We consistently strive to be at the forefront of new media technology.</span></p>
+  </div>         
+</div>
+<footer>
+  <div class="footer">
+    <small>&copy; Copyright - BisaCreative</small>
+  </div>
+</footer>
+</body>
+</html>

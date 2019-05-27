@@ -1,0 +1,218 @@
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+  margin-top: 45px;
+}
+
+.navigation a:hover {
+  background: #FFFF00;
+}
+
+.logo{
+  display: block;
+  vertical-align: top;
+  width: 250px;
+  height: 150px;
+ 
+}
+
+.wrapper {
+
+  display:flex;
+  flex-flow: row wrap;
+  text-align: center;
+  
+}
+
+.wrapper > * {
+  padding: 30px;
+  flex: 1 100%;
+}
+
+.header {
+  font-style: oblique;
+
+}
+
+.footer {
+  padding: 15px;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  text-align: left;
+  background: #F5F5F5;
+}
+
+body {
+  font: 18px system-ui;
+  font-style: italic;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  border:1px;
+  justify-content: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.one-third{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.one-third>div {
+  font-size: 16px;
+  width: 70%;
+  margin: 10px;
+  text-align: left;
+}
+
+.runtext-container {
+overflow-x: hidden;
+overflow-y: visible;
+
+}
+
+.main-runtext {
+overflow: visible;
+position: relative;
+}
+
+.maps{
+  overflow: hidden;
+  padding-bottom: 38%;
+  position: relative;
+}
+
+.maps iframe{
+  height: 100%
+  width: 100%;
+  position: absolute;
+}
+
+iframe{
+  width: 100%;
+  height: 450px;
+  margin-top: 7px;
+  border-radius: 9px;
+}
+
+.section{
+  display: block;
+  scroll-behavior: smooth;
+  height: 800px;
+  width: 1325px;
+  background: url("backg.png") no-repeat;
+  text-align: center;
+}
+
+.h1{
+  font-family: serif;
+  font-size: 60px;
+}
+
+{box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.konten {
+  width: 70%;
+  text-align: center;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-konten {
+  width: 30%;
+  text-align: center;
+}
+.box2{
+  display: flex;
+  margin-left: auto;
+  width: 80%;
+}
+.konten2{
+  width: 55%;
+}
+
+.sub-kon2{
+  width: 35%
+}

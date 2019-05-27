@@ -1,0 +1,158 @@
+@media screen and (min-width: 561px) and (max-width: 959px){
+  .navigation {
+    justify-content: space-around;
+  }
+  .logo{
+    width: 44%;
+
+  }
+
+    .section{
+    display: block;
+    scroll-behavior: smooth;
+    width: 100%;
+    background: url("backg.png") no-repeat;
+    text-align: center;
+  }
+
+  .h1{
+    font-size: 40px;
+  }
+
+  .one-third{
+    flex-direction: column;
+  }
+  .one-third>div {
+    font-size: 14px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .hidden2{
+    display: none;
+  }
+
+  .slideshow-container {
+    width: 550px;
+    position: relative;
+    margin: auto;
+  }
+  .box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .sub-kon2{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: left;
+    background: #F5F5F5;
+  }
+
+  .konten {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .sub-konten {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 560px){
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+
+  .logo{
+    width: 70%;
+  }
+
+    .section{
+    display: block;
+    scroll-behavior: smooth;
+    width: 100%;
+    background: url("backg.png") no-repeat;
+    text-align: center;
+  }
+
+  .h1{
+    font-size: 40px;
+  }
+
+  .one-third{
+    flex-direction: column;
+  }
+  .one-third>div {
+    font-size: 14px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+  .hidden{
+    display: none;
+  }
+  .slideshow-container {
+    width: 450px;
+    position: relative;
+    margin: auto;
+  }
+  .box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .sub-kon2{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: left;
+    background: #F5F5F5;
+  }
+
+  .konten {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .sub-konten {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+}
